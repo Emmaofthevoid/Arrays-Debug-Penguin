@@ -9,5 +9,7 @@ public class ArrayTest {
         quartale[0] = "fruehling";
         System.out.println(Arrays.toString(quartale));
         System.out.println(q1);
+        int i = 2;
+        String q2;
     }
 }
