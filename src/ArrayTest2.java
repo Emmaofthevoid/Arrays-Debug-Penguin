@@ -25,6 +25,11 @@ public class ArrayTest2 {
             System.out.println();
 
         }
+        for (int i = 0; i < smartphoneNamen.length; i++) {
+
+            System.out.println(verkaufteAnzahlJahr(smartphoneVerkaufszahlen,i));
+        }
+        System.out.println("---------");
     }
     // Die folgende methode soll die über das jahr verkauften Zahlen smartphones zurückliefern
     //zahlen: unsere verkaufszahlen
@@ -39,7 +44,7 @@ public class ArrayTest2 {
             summe += zahlen[welchesSmartphone][q];
 
         }
-        return 0; //TODO : durch korrekten code bitte ersetzen
+        return summe;
     }
     //Die Folgende methode soll uns den namen des smartphones liefern, das in einem bestimmten Quartal
     //am erfolgreichsten war

@@ -13,6 +13,14 @@ public class ArrayDemo {
 
 
         }
+        System.out.println("-----------");
+        char [][] probandoProbando = new char[7][8];
+        for (int i = 0; i < probandoProbando.length; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print('a' + "  ");
+            }
+            System.out.println();
+        }
 
     }
 }
