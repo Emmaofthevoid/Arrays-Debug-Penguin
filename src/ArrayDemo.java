@@ -9,9 +9,17 @@ public class ArrayDemo {
         sum = (arraySum[0] + arraySum2[0]) + (arraySum[1] + arraySum2[1]) + (arraySum[2] + arraySum2[2]);
         System.out.println(sum);
         for (int i = 0; i < arraySum.length; i++) {
-            System.out.print(arraySum[i] + arraySum2[i]);
-            System.out.print(",");
+            System.out.print(arraySum[i] + arraySum2[i] + ",");
 
+
+        }
+        System.out.println("-----------");
+        char [][] probandoProbando = new char[7][8];
+        for (int i = 0; i < probandoProbando.length; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print('a' + "  ");
+            }
+            System.out.println();
         }
 
     }
